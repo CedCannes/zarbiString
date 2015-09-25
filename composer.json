@@ -1,0 +1,19 @@
+{
+    "name": "cedcannes/zarbi",
+    "license": "MIT",
+    "type": "project",
+    "description": "Assertion string me sort quelque chose de bizarre ",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "ruflin/elastica": "1.4.*@dev"
+    },
+    "require-dev": {
+        "atoum/atoum" : "dev-master"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
